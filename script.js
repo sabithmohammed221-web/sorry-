@@ -305,7 +305,7 @@ setInterval(
 function sendForgiveness() {
 
     const message =
-        "I forgive you ❤️ Don't do it again, okay? 🥺❤️";
+        "I forgive you, Don't do it again, okay?";
 
     const whatsappURL =
         "https://wa.me/?text=" +
