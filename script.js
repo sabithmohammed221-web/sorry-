@@ -298,3 +298,18 @@ setInterval(
     },
     1800
 );
+/* =========================
+   WHATSAPP FORGIVENESS
+========================= */
+
+function sendForgiveness() {
+
+    const message =
+        "I forgive you ❤️ Don't do it again, okay? 🥺❤️";
+
+    const whatsappURL =
+        "https://wa.me/?text=" +
+        encodeURIComponent(message);
+
+    window.location.href = whatsappURL;
+}
