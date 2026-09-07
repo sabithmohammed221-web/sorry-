@@ -766,3 +766,58 @@ h1 {
         font-size: 15px;
     }
 }
+/* =========================
+   WHATSAPP BUTTON
+========================= */
+
+.whatsapp-btn {
+
+    margin-top: 28px;
+
+    padding: 16px 28px;
+
+    border: none;
+
+    border-radius: 50px;
+
+    background: #25D366;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 10px 30px
+        rgba(37, 211, 102, .25);
+
+    transition: .25s;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.07);
+}
+
+.whatsapp-btn:active {
+    transform: scale(.96);
+}
+
+
+/* Phone */
+
+@media (max-width: 600px) {
+
+    .whatsapp-btn {
+
+        width: 90%;
+
+        max-width: 300px;
+
+        padding: 14px 20px;
+
+        font-size: 15px;
+    }
+}
